@@ -1,0 +1,6 @@
+
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+.vs/In space noone can hear you build/v15/.suo
