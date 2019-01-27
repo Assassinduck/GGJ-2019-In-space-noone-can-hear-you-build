@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: 3a3c23f572957e2478aa8fe1aa367146
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: turretFloor_TEST
+    2100002: turretFloor_gray
+    2100004: turretFloor_green
+    2100006: turretFloor_orange
+    2100008: turretFloor_purple
+    2100010: turretFloor_red
+    2100012: turretFloor_turquoise
+    2800000: turretFloor_TEST - baseColor
+    2800002: turretFloor_TEST - normal
+    2800004: turretFloor_TEST - metallic
+    2800006: turretFloor_TEST - height
+    2800008: turretFloor_TEST - emissive
+    2800010: turretFloor_TEST - ambientOcclusion
+    2800012: turretFloor_gray - baseColor
+    2800014: turretFloor_gray - normal
+    2800016: turretFloor_gray - metallic
+    2800018: turretFloor_gray - height
+    2800020: turretFloor_gray - emissive
+    2800022: turretFloor_gray - ambientOcclusion
+    2800024: turretFloor_green - baseColor
+    2800026: turretFloor_green - normal
+    2800028: turretFloor_green - metallic
+    2800030: turretFloor_green - height
+    2800032: turretFloor_green - emissive
+    2800034: turretFloor_green - ambientOcclusion
+    2800036: turretFloor_orange - baseColor
+    2800038: turretFloor_orange - normal
+    2800040: turretFloor_orange - metallic
+    2800042: turretFloor_orange - height
+    2800044: turretFloor_orange - emissive
+    2800046: turretFloor_orange - ambientOcclusion
+    2800048: turretFloor_purple - baseColor
+    2800050: turretFloor_purple - normal
+    2800052: turretFloor_purple - metallic
+    2800054: turretFloor_purple - height
+    2800056: turretFloor_purple - emissive
+    2800058: turretFloor_purple - ambientOcclusion
+    2800060: turretFloor_red - baseColor
+    2800062: turretFloor_red - normal
+    2800064: turretFloor_red - metallic
+    2800066: turretFloor_red - height
+    2800068: turretFloor_red - emissive
+    2800070: turretFloor_red - ambientOcclusion
+    2800072: turretFloor_turquoise - baseColor
+    2800074: turretFloor_turquoise - normal
+    2800076: turretFloor_turquoise - metallic
+    2800078: turretFloor_turquoise - height
+    2800080: turretFloor_turquoise - emissive
+    2800082: turretFloor_turquoise - ambientOcclusion
+    11400000: sbsar
+    11400002: graph1
+    11400004: graph2
+    11400006: graph3
+    11400008: graph4
+    11400010: graph5
+    11400012: graph6
+    11400014: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: turretFloor_TEST
+    prototypeName: turretFloor_TEST
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://turretFloor_TEST\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height,emissive,ambientOcclusion
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: emissive
+      alphaSource: emissive
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    textureParameters:
+    - textureName: turretFloor_TEST - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_TEST - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_TEST - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_TEST - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_TEST - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_TEST - emissive
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_TEST - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: emissive
+      bLinear: 0
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: turretFloor_gray
+    prototypeName: turretFloor_gray
+    graphDescIndex: 1
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://turretFloor_gray\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height,emissive,ambientOcclusion
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: emissive
+      alphaSource: emissive
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    textureParameters:
+    - textureName: turretFloor_gray - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_gray - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_gray - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_gray - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_gray - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_gray - emissive
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_gray - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: emissive
+      bLinear: 0
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: turretFloor_green
+    prototypeName: turretFloor_green
+    graphDescIndex: 2
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://turretFloor_green\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height,emissive,ambientOcclusion
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: emissive
+      alphaSource: emissive
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    textureParameters:
+    - textureName: turretFloor_green - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_green - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_green - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_green - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_green - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_green - emissive
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_green - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: emissive
+      bLinear: 0
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: turretFloor_orange
+    prototypeName: turretFloor_orange
+    graphDescIndex: 3
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://turretFloor_orange\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height,emissive,ambientOcclusion
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: emissive
+      alphaSource: emissive
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    textureParameters:
+    - textureName: turretFloor_orange - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_orange - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_orange - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_orange - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_orange - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_orange - emissive
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_orange - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: emissive
+      bLinear: 0
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: turretFloor_purple
+    prototypeName: turretFloor_purple
+    graphDescIndex: 4
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://turretFloor_purple\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height,emissive,ambientOcclusion
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: emissive
+      alphaSource: emissive
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    textureParameters:
+    - textureName: turretFloor_purple - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_purple - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_purple - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_purple - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_purple - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_purple - emissive
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_purple - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: emissive
+      bLinear: 0
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: turretFloor_red
+    prototypeName: turretFloor_red
+    graphDescIndex: 5
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://turretFloor_red\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height,emissive,ambientOcclusion
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: emissive
+      alphaSource: emissive
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    textureParameters:
+    - textureName: turretFloor_red - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_red - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_red - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_red - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_red - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_red - emissive
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_red - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: emissive
+      bLinear: 0
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: turretFloor_turquoise
+    prototypeName: turretFloor_turquoise
+    graphDescIndex: 6
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://turretFloor_turquoise\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height,emissive,ambientOcclusion
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: emissive
+      alphaSource: emissive
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    textureParameters:
+    - textureName: turretFloor_turquoise - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_turquoise - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_turquoise - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_turquoise - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_turquoise - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_turquoise - emissive
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: turretFloor_turquoise - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: emissive
+      bLinear: 0
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []

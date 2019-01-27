@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4605875583257458226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4605875583257458228}
+  - component: {fileID: 4605875583257458227}
+  - component: {fileID: 4605875583257458229}
+  - component: {fileID: 4605875583257458230}
+  m_Layer: 0
+  m_Name: GameMananger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4605875583257458228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4605875583257458226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3584747, y: -1.1800988, z: -0.66080844}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4605875583257458227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4605875583257458226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e164a3efcd5e3c49856fe4989fabe5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layouts:
+  - {fileID: 0}
+  CoreHealth: 10
+  EnemyCounter: 0
+  StartTimer: 5
+--- !u!114 &4605875583257458229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4605875583257458226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad23e12ad95cd8478adb0b51d98ee28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawnpointTransforms: []
+  ActiveLayout: {fileID: 0}
+  EnemyHolder: {fileID: 0}
+  EnemyPrefabs:
+  - {fileID: 796486977, guid: 8f11a6e0493bfe24fafb3edff7cc0efc, type: 3}
+  - {fileID: 796486977, guid: 14da0c0dc30635f4cadb0a0aae8e02d8, type: 3}
+  - {fileID: 796486977, guid: 1a4ba8fd6b34319428eaea55f674ff60, type: 3}
+  WaveList:
+  - MobList: 010000000100000001000000
+  - MobList: 010000000000000000000000
+  - MobList: 030000000100000001000000
+  WaveNr: 0
+  MaxWaves: 0
+  EnemyCounter: 0
+--- !u!114 &4605875583257458230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4605875583257458226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 099e2fd7e3b4d20419ff40982b87736b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerText: {fileID: 0}
+  Scrap: 10000
+  BuyScreen: {fileID: 0}
+  UpgradeScreen: {fileID: 0}
+  BuyTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  UpgradeText:
+  - {fileID: 0}
+  - {fileID: 0}
+  ScrapText: {fileID: 0}
