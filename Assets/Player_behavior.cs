@@ -17,10 +17,12 @@ public class Player_behavior : MonoBehaviour
     public bool attack;
     Transform wrench;
     public UIMananger_Script UiManangerScript;
+    private Animator _animator;
 
     void Start()
     {
-        wrench = transform.GetChild(0);   
+        wrench = transform.GetChild(0);
+        _animator = GetComponent<Animator>();
 
     }
 
@@ -32,8 +34,18 @@ public class Player_behavior : MonoBehaviour
         attack = Input.GetKeyDown(KeyCode.Space);
         float vert_move = Input.GetAxis("Vertical") * vert_speed * Time.deltaTime;
         float horz_move = Input.GetAxis("Horizontal") * horz_speed * Time.deltaTime;
-
         transform.Translate((-transform.forward * vert_move) + (-transform.right * horz_move));
+        if ((vert_move <0 || vert_move > 0) || (horz_move < 0 || horz_move > 0))
+        {
+            _animator.Play("mrManRun");
+            return;
+        }
+        else if ( vert_move == 0 && horz_move == 0)
+        {
+            _animator.Play("mrManIdleanim");
+        }
+
+
 
     }
     
@@ -47,10 +59,7 @@ public class Player_behavior : MonoBehaviour
             Debug.Log(health / maxhealth);
             inv = true;
             Invoke("inv_countdown", inv_frames);
-
         }
-
-
     }
 
     void OnTriggerEnter(Collider col)
@@ -71,7 +80,7 @@ public class Player_behavior : MonoBehaviour
     {
         if (attack && !attack_mode)
         {
-            wrench.DORotate(new Vector3(0, 100,-10),0.25f);
+            wrench.DORotate(new Vector3(0, 100, 90),0.25f);
             attack_mode = true;
             Invoke("player_attackstate", 1);
 
@@ -81,6 +90,6 @@ public class Player_behavior : MonoBehaviour
     void player_attackstate()
     {
         attack_mode = false;
-        wrench.DORotate(new Vector3(0, 100, 90), 0.5f);
+        wrench.DORotate(new Vector3(-100, 100, 90), 0.5f);
     }
 }

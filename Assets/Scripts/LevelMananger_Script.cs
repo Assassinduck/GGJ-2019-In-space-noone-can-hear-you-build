@@ -38,9 +38,18 @@ public class LevelMananger_Script : MonoBehaviour
         }
         if (_activeTimer <= 0 && !_runOnce )
         {
-            _uiManangerScript.UpdateTimer("Attack Incoming!");
-            _runOnce = true;
-            _enemeySpawnerScript.GetSpawnpoints();
+            if (_enemeySpawnerScript.WaveNr < _enemeySpawnerScript.MaxWaves)
+            {
+                _uiManangerScript.UpdateTimer("Attack Incoming!");
+                _runOnce = true;
+                _enemeySpawnerScript.GetSpawnpoints();
+            }
+            else
+            {
+                Debug.Log("All Waves Done!");
+                _uiManangerScript.UpdateTimer("Game Over!");
+            }
+
         }
 
     }

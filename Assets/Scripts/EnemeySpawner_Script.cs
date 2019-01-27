@@ -11,6 +11,7 @@ public class EnemeySpawner_Script : MonoBehaviour
     public GameObject[] EnemyPrefabs;
     private int _ecount;
     private LevelMananger_Script _levelManangerScript;
+
     [System.Serializable]
     public class WaveClass
     {
